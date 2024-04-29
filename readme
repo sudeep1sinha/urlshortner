@@ -1,0 +1,40 @@
+
+URL Shortener
+This is a simple Django application that shortens long URLs and provides redirection to the original destination.
+
+Features:
+
+Generates short, unique codes for long URLs.
+Redirects users to the original URL when they access the shortened code.
+Getting Started
+
+Prerequisites:
+
+Python 3.x
+Django framework
+Installation:
+
+Clone this repository.
+Create a virtual environment: python -m venv venv
+Activate the virtual environment: source venv/bin/activate (Windows) or source venv/bin/activate.sh (Linux/macOS)
+Install dependencies: pip install -r requirements.txt
+Run database migrations: python manage.py migrate
+Usage:
+
+Start the development server: python manage.py runserver
+Access the application in your browser: http://localhost:8000/
+Contributing
+
+We welcome contributions! Feel free to submit pull requests or report issues on GitHub.
+
+License
+
+This project is licensed under the MIT License.
+
+Contact
+
+Sudeep Sinha - sudeepsinha337@gmail.com
+
+
+
+p.s - i tried to deploy this project using heroku but heroku is asking for credit card information . Sad dilemma (spelling wrong hai ig)
