@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Database
+*.sqlite3
+*.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled Python bytecode
+*.pyc
+
+# Ignore migrations
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore local settings
+**/local_settings.py
+
+# Ignore secret settings
+**/secret_settings.py
+
+# Ignore backup files
+*~
+*.bak
